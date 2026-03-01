@@ -1,0 +1,29 @@
+#root{
+    --primary: #1778e0;
+    --secondary: #6c757d;
+    --acent: #28a745;
+    --on-primary: #fff;
+    --on-secondary: #fff;
+    --on-acent: #fff;
+    --primary-hover: #0069d9;
+    --secondary-hover: #5a6268;
+    --acent-hover: #17057c;
+    --on-primary-hover: #fff;
+    --on-secondary-hover: #fff;
+    --on-acent-hover: #ffffff;
+    --text: #343a40;
+    --border: #ced4da;
+    --shadow: #0000001a;
+    --transparent: #002060bf;
+}
+
+*{
+    border-radius: 10px;
+}
+
+a{
+    &:hover {
+            color: var(--on-acent-hover);
+          background-color: var(--acent-hover);
+          }
+}
