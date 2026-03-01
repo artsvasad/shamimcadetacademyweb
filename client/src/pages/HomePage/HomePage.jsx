@@ -1,5 +1,5 @@
-import MainPageLayout from "../components/Layout/MainPageLayout.jsx"
-import Hero from "./../components/Layout/Hero/Hero.jsx"
+import MainPageLayout from "../../components/Layout/MainPageLayout.jsx"
+import Hero from "../../components/Layout/Hero/Hero.jsx"
 
 export default function HomePage() {
     const pageTitle = "Home - Shamim Cadet Academy";
@@ -23,6 +23,13 @@ export default function HomePage() {
             position: "Chief Advisor",
             image: "https://www.shahidcadet-academy.com/wp-content/uploads/2023/02/chief-advisor.jpg",
             description: "Major Md.Farid Mahmood (Retd) is the Chief Advisor of Shamim Cadet Academy. His military background and extensive experience in leadership and strategic planning contribute significantly to the academy's success in preparing students for cadet college admissions."
+        },
+        {
+            key: 3,
+            name: "Captain Md. Ajim Uddin",
+            position: "Advisor",
+            image: "https://res.cloudinary.com/duhqyfbk1/image/upload/v1772346795/boss_bjr3cq.png",
+            description: "Captain Md. Ajim Uddin is a retired member of Rangpur Cadet College and a respected Advisor at Shamim Cadet Academy. With his military expertise and dedication to mentoring young minds, he plays a crucial role in guiding students towards achieving their goals of joining prestigious cadet colleges."
         }
     ]
     return (
