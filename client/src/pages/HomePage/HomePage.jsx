@@ -11,7 +11,8 @@ export default function HomePage() {
 
 
     const TeamLeaders = [
-        {key: 1,
+        {
+            key: 1,
             name: "Shaikh Shamim Ahmed",
             position: "Chairman & Director",
             image: "https://res.cloudinary.com/duhqyfbk1/image/upload/v1772035655/Shaikh_Shamim_Ahmed_q9fzjt.jpg",
@@ -47,11 +48,11 @@ export default function HomePage() {
                     <h2>Our Leadership Team</h2>
                     <div className="teamLeaders" style={{ display: "flex", flexDirection: "row", alignItems: "center", gap: "20px", flexWrap: "wrap", justifyContent: "center" }}>
                         {TeamLeaders.map((leader, index) => (
-                            <div key={index} className="leader" style={{ maxWidth: "365px",display: "flex", flexDirection: "column", alignItems: "center", marginBottom: "20px", padding: "20px", backgroundColor: "#fff", border: "1px solid #ccc", borderRadius: "8px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", textAlign: "center", color: "#333", fontFamily: "Arial, sans-serif" }}>
-                                <h3 style={{color: "#261681", fontWeight: "bold"}}>{leader.name}</h3>
+                            <div key={index} className="leader" style={{ maxWidth: "365px", display: "flex", flexDirection: "column", alignItems: "center", marginBottom: "20px", padding: "20px", backgroundColor: "#fff", border: "1px solid #ccc", borderRadius: "8px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", textAlign: "center", color: "#333", fontFamily: "Arial, sans-serif" }}>
+                                <h3 style={{ color: "#261681", fontWeight: "bold" }}>{leader.name}</h3>
                                 <img src={leader.image} alt={leader.name} height={250} />
                                 <h4>{leader.position}</h4>
-                                <p style={{fontSize: 'small'}}>{leader.description}</p>
+                                <p style={{ fontSize: 'small' }}>{leader.description}</p>
                             </div>
                         ))}
                     </div>
@@ -65,8 +66,10 @@ export default function HomePage() {
                     <p>Website: shamimcadetacademy.com</p>
 
                 </aside>
-                <aside>
+                <aside style={{ display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: "20px", marginTop: "20px" }}>
                     <h2>Find Us on <a href="https://maps.app.goo.gl/9p9sRbdgVqawSxkw8">Google Maps</a></h2>
+                    
+                    <iframe title="Shamim Cadet Academy Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29188.82761032821!2d90.3872512!3d23.868211199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c59a4dc847ef%3A0x9cbb2cab270fb46a!2sShamim%20Cadet%20Academy!5e0!3m2!1sen!2sbd!4v1772351380406!5m2!1sen!2sbd" width="360" height="250" style={{ border: "0" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     
 
 

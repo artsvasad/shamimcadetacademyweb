@@ -28,7 +28,7 @@ export default function Header() {
 
 
 
-        <header className={styles.header}>
+        <header className={styles.header}>            
             <div className={styles.siteHeader}>
                 <div className={styles.logoDetails}>
                     <a href="/"><img src={siteConfig.logo} className={styles.logo} alt={siteConfig.name} height={75} /></a>
