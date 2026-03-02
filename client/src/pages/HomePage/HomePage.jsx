@@ -29,7 +29,7 @@ export default function HomePage() {
             key: 3,
             name: "Captain Md. Ajim Uddin",
             position: "Advisor",
-            image: "https://res.cloudinary.com/duhqyfbk1/image/upload/v1772346795/boss_bjr3cq.png",
+            image: "https://res.cloudinary.com/duhqyfbk1/image/upload/v1772433805/Captain_Azim_feltzs.jpg",
             description: "Captain Md. Ajim Uddin is a retired member of Rangpur Cadet College and a respected Advisor at Shamim Cadet Academy. With his military expertise and dedication to mentoring young minds, he plays a crucial role in guiding students towards achieving their goals of joining prestigious cadet colleges."
         }
     ]

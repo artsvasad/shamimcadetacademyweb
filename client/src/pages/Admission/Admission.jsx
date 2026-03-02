@@ -3,7 +3,7 @@ export default function Admission() {
     const pageTitle = "Admission - Shamim Cadet Academy";
     document.title = pageTitle;
     const metaTitle = "Admission | Shamim Cadet Academy";
-    const poster = "https://res.cloudinary.com/duhqyfbk1/image/upload/v1772348498/F-2_oisqmx.png";
+    const poster = "https://res.cloudinary.com/duhqyfbk1/image/upload/v1772433860/Admission_Poster_nrdw09.jpg";
     const metaDescription = "Discover the admission process at Shamim Cadet Academy. We provide comprehensive coaching and guidance to help aspiring cadets succeed in their journey towards joining prestigious cadet colleges. Learn about our programs, eligibility criteria, and how we prepare students for the competitive admission tests.";
     const metaKeywords = "Shamim Cadet Academy, admission process, cadet college coaching, eligibility criteria, competitive exams, cadet college preparation";
     const metaAuthor = "Shamim Cadet Academy";
