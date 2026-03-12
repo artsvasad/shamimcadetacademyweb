@@ -6,8 +6,8 @@ import App from './App.jsx'
 import HomePage from './pages/HomePage/HomePage'
 import Admission from './pages/Admission/Admission.jsx'
 import NoticeBoard from './pages/NoticeBoard/NoticeBoard.jsx'
-// import About from './pages/About/About.jsx'
-// import Contact from './pages/Contact/Contact.jsx'
+import AboutUs from './pages/AboutUs/AboutUs.jsx'
+import ContactUs from './pages/ContactUs/ContactUs.jsx'
 import NotFound from './pages/404/NotFound.jsx'
 
 createRoot(document.getElementById('root')).render(
@@ -19,9 +19,8 @@ createRoot(document.getElementById('root')).render(
           <Route path="/home" element={<HomePage />} />
           <Route path="/admission" element={<Admission />} />
           <Route path="/notices" element={<NoticeBoard />} />
-          {/* 
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/contact" element={<ContactUs />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

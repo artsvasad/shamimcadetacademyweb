@@ -44,7 +44,7 @@ export default function HomePage() {
                     <h2>About Us</h2>
                     <p>Shamim Cadet Academy is a premier coaching center dedicated to preparing students for admission to prestigious cadet colleges. Our program combines rigorous academic preparation with discipline, mental toughness, and strategic training to help students excel in competitive exams.</p>
                 </article>
-                <article className="teamLeader" style={{ padding: "20px", backgroundColor: "#f0f0f0", margin: "20px", padding: "20px", border: "1px solid #ccc", borderRadius: "8px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", textAlign: "center", color: "#333", fontFamily: "Arial, sans-serif", fontWeight: "bold", fontSize: "18px", lineHeight: "1.5" }}>
+                <article className="teamLeader" style={{ padding: "20px", backgroundColor: "#f0f0f0", margin: "20px", border: "1px solid #ccc", borderRadius: "8px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", textAlign: "center", color: "#333", fontFamily: "Arial, sans-serif", fontWeight: "bold", fontSize: "18px", lineHeight: "1.5" }}>
                     <h2>Our Leadership Team</h2>
                     <div className="teamLeaders" style={{ display: "flex", flexDirection: "row", alignItems: "center", gap: "20px", flexWrap: "wrap", justifyContent: "center" }}>
                         {TeamLeaders.map((leader, index) => (
